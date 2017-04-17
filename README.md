@@ -1,4 +1,4 @@
-# MAximo bot using conversation api 
+# Maximo bot using IBM Watson conversation api 
 
 This Node.js app demonstrates the Conversation service in a simple chat interface for Maximo support
 
