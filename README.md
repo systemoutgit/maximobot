@@ -1,8 +1,8 @@
-# Conversation Sample Application [![Build Status](https://travis-ci.org/watson-developer-cloud/conversation-simple.svg?branch=master)](http://travis-ci.org/watson-developer-cloud/conversation-simple) [![codecov.io](https://codecov.io/github/watson-developer-cloud/conversation-simple/coverage.svg?branch=master)](https://codecov.io/github/watson-developer-cloud/conversation-simple?branch=master)
+# MAximo bot using conversation api 
 
-This Node.js app demonstrates the Conversation service in a simple chat interface simulating a cognitive car dashboard.
+This Node.js app demonstrates the Conversation service in a simple chat interface for Maximo support
 
-![Demo](readme_images/demo.gif)
+![Demo](readme_images/maximohome.PNG)
 
 You can view a [demo][demo_url] of this app.
 
@@ -22,7 +22,7 @@ If you want to modify the app or use it as a basis for building your own app, in
 
 ### Getting the files
 
-Use GitHub to clone the repository locally, or [download the .zip file](https://github.com/watson-developer-cloud/conversation-simple/archive/master.zip) of the repository and extract the files.
+Use GitHub to clone the repository locally, 
 
 ### Setting up the Conversation service
 
@@ -118,23 +118,16 @@ Use GitHub to clone the repository locally, or [download the .zip file](https://
 
 After your app is installed and running, experiment with it to see how it responds.
 
-The chat interface is on the left, and the JSON that the JavaScript code receives from the Conversation service is on the right. Your questions and commands are interpreted using a small set of sample data trained with the following intents:
 
-    turn_on
-    turn_off
-    turn_up
-    turn_down
-    traffic_update
-    locate_amenity
-    weather
-    phone
-    capabilities
-    greetings
-    goodbyes
+This app is integrated with Maximo 7.5 preview environment, try reporting a broken asset.
 
-Type a request, such as `music on` or `I want to turn on the windshield wipers`. The system understands your intent and responds. You can see the details of how your input was understood by examining the JSON data in the `Watson understands` section on the right side.
 
-For example, if you type `Turn on some music`, the JSON data shows that the system understood the `turn_on` intent with a high level of confidence, along with the `appliance` entity with a value of `music`.
+>  asset broken/asset down/servie request  - keywords.
+
+
+It will ask your asset number in a special format and will generate Service requests in Maximo environments.
+
+
 
 For more information about intents, see the [Conversation service documentation][doc_intents].
 
@@ -209,7 +202,7 @@ Find more open source projects on the
 
 [cf_docs]: (https://www.ibm.com/watson/developercloud/doc/common/getting-started-cf.html)
 [cloud_foundry]: https://github.com/cloudfoundry/cli#downloads
-[demo_url]: http://conversation-simple.mybluemix.net/
+[demo_url]: http://maximobot.mybluemix.net/
 [doc_intents]: (http://www.ibm.com/watson/developercloud/doc/conversation/intent_ovw.shtml)
 [docs]: http://www.ibm.com/watson/developercloud/doc/conversation/overview.shtml
 [docs_landing]: (http://www.ibm.com/watson/developercloud/doc/conversation/index.shtml)
