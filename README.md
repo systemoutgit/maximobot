@@ -4,7 +4,7 @@ This Node.js app demonstrates the Conversation service in a simple chat interfac
 
 ![Demo](readme_images/maximohome.PNG)
 
-You can view a [demo][demo_url] of this app.
+
 
 ## Before you begin
 
